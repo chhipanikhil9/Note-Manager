@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:sans-serif;
+    color: #777;
+    background-image: url(img3.jpg);
+
+}
+
+.wrapper{
+    width: 90%;
+    max-width: 760px;
+    margin: 20px auto;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    border: 1px solid lightgray;
+}
+
+input{
+    color: #777;
+    outline: none;
+    border: 1px solid #777;
+}
+
+input:focus{
+    border: 1px solid green;
+}
+
+header {
+    text-align: center;
+     background: #efefef;
+}
+
+header h2{
+    padding: 40px 20px;
+    color: #555;
+}
+
+header #search-note input{
+    padding: 5px 2px;
+    width: 200px;
+    border-radius: 2px;
+    margin: 10px 0 40px 0;
+}
+
+.note-list ul{
+    padding: 40px;
+    list-style: none;
+    background-color: #343434;
+    color: white;
+}
+
+.note-list ul li{
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 0.1px solid #ccc;
+    border-left: 5px solid #efefef;
+}
+
+.note-list ul li p:nth-child(2){
+    text-align: right;
+}
+    
+.note-list ul li p i{
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.note-list ul li p i.fa-pencil-square-o{
+    color: #228822;
+}
+
+.note-list ul li p i.fa-times{
+    color: #dc143c;
+}
+
+.note-list ul li input{
+    display:none;
+    padding: 5px 0;
+    width: 70%;
+    margin: 5px auto 0 auto;
+}
+
+#add-notes{
+    padding: 60px 0;
+    background-color: #343434;
+}
+
+#hide-notes{
+    background-color: #343434;
+    color: white;
+}
+#hide-list{
+    padding: 20px;
+    
+    color: #343434;
+}
+
+#hide-list label{
+    padding:5px 10px;
+    margin: 10px;
+    border-bottom: 1px solid #777;
+    user-select: none;
+    background-color: #343434;
+}
+
+#hide-list label:hover{
+    background: #efefef;
+}
+
+#hide-list input[type= 'checkbox']{
+    display: none;
+}
+
+form#add{
+    margin-top: 10px;
+    text-align: center;
+}
+
+form#add input{
+    border-radius: 2px;
+}
+
+#plus{
+    font-size: 50px;
+    color:white;
+    border-radius: 200px;
+    cursor:pointer;
+    
+}
+#add-input{
+    width: 200px;
+    margin: 10 0 40 0;
+    padding: 5px 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    
+    
+
+
+*/
