@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Note-Maker</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <!--<link rel="stylesheet" type="text/css" href="css/font-awesome.css"> 
+-->
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h2>Note Maker</h2>
+            <form id="search-note">
+                <input type="text" placeholder="Search note...">
+            </form>
+        </header>
+        <div class="note-list">
+            <ul id="list">
+                <li>
+                    <p>First note</p>
+                    <p><i class="fa fa-pencil-square-o">E</i><i class="fa fa-times">D</i></p>
+                    <input class="edit-note" type="text">
+                </li>
+                <li>
+                    <p>Second note</p>
+                    <p><i class="fa fa-pencil-square-o">E</i><i class="fa fa-times">D</i></p>
+                    <input class="edit-note" type="text">
+                </li>
+                <li>
+                    <p>Third note</p>
+                    <p><i class="fa fa-pencil-square-o">E</i><i class="fa fa-times">D</i></p>
+                    <input class="edit-note" type="text">
+                </li>
+            </ul>
+        </div>
+        <div id="hide-notes">
+            <label for="hide">Hide notes</label>
+            <input type="checkbox" id="hide">
+        </div>
+        <div id="add-notes">
+            <form id="add">
+               <input type="text" placeholder="Add a note..." id="add-input">
+                <input type="submit" value="Add" id="add-btn"> 
+                <p><i id="plus">+</i>
+            </form>
+        </div>   
+    </div>
+    <script src="strength.js"></script>
+</body>
+    
+</html>
